@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.7.2.98"?>
+<Objects>
+  <Object
+    Path="D:\ia\Door_control\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="132369647280903937" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="132369562326361951"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="132369566981680552"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="132369646957441278" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="132369562330912007" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="132369562330711922"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="132369562330811876"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="132369562330892365"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="132369562335542197" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="132369562335312175"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="132369562335432160"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="132369562335531839"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="132369562340051801" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="132369562339881818"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="132369562339961907"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="132369562340041805"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="132369562344471867" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="132369562344292253"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="132369562344371944"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="132369562344461713"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="132369576952149590" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="132369576951879624"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="132369576951969637"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="132369576952119763"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Program\ANSIC.prg"
+    LogicalPath="Program"
+    Type="Program"
+    LastWriteTime="132369569632312420" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Program\Cyclic.c"
+    LogicalPath="Program.Cyclic.c"
+    Type="File"
+    LastWriteTime="132489739333317159"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Program\Init.c"
+    LogicalPath="Program.Init.c"
+    Type="File"
+    LastWriteTime="132369569632252290"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Program\Exit.c"
+    LogicalPath="Program.Exit.c"
+    Type="File"
+    LastWriteTime="132369569632272328"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Program\Types.typ"
+    LogicalPath="Program.Types.typ"
+    Type="File"
+    LastWriteTime="132369569632292285"
+    Private="true" />
+  <Object
+    Path="D:\ia\Door_control\Logical\Program\Variables.var"
+    LogicalPath="Program.Variables.var"
+    Type="File"
+    LastWriteTime="132369569632312420"
+    Private="true" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="132369562368281639" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="132369592701919176"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="132372869444211798"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\Cpu.pkg"
+    LogicalPath="Config1.X20CP1584"
+    Type="Cpu"
+    LastWriteTime="132369562347521768" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\Cpu.sw"
+    LogicalPath="Config1.X20CP1584.Cpu.sw"
+    Type="File"
+    LastWriteTime="132369647281023799"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\Cpu.per"
+    LogicalPath="Config1.X20CP1584.Cpu.per"
+    Type="File"
+    LastWriteTime="132369562346281938"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\IoMap.iom"
+    LogicalPath="Config1.X20CP1584.IoMap.iom"
+    Type="File"
+    LastWriteTime="132369594770222162"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\PvMap.vvm"
+    LogicalPath="Config1.X20CP1584.PvMap.vvm"
+    Type="File"
+    LastWriteTime="132369562346461813"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\Connectivity\Package.pkg"
+    LogicalPath="Config1.X20CP1584.Connectivity"
+    Type="Package"
+    LastWriteTime="132369562346671767" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.X20CP1584.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="132369562346661717" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\TextSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1584.TextSystem"
+    Type="Package"
+    LastWriteTime="132369562346701706" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\UnitSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1584.UnitSystem"
+    Type="Package"
+    LastWriteTime="132369562346731701" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="132369562347341881" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="132369562346971738" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="132369562346881728"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="132369562346961710"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="132369562347191761" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="132369562347081795" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="132369562347051742" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="132369562347081795" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="132369562347141838" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="132369562347131741" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="132369562347161698" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="132369562347191761" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="132369562347221916" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="132369562347331721" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="132369562347322002"
+    Private="false" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\mappControl\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappControl"
+    Type="Package"
+    LastWriteTime="132369562347381735" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\mappMotion\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappMotion"
+    Type="Package"
+    LastWriteTime="132369562347411762" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\mappServices\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappServices"
+    Type="Package"
+    LastWriteTime="132369562347451758" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\mappView\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappView"
+    Type="Package"
+    LastWriteTime="132369562347481753" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\X20CP1584\mappCockpit\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappCockpit"
+    Type="Package"
+    LastWriteTime="132369562347511760" />
+  <Object
+    Path="D:\ia\Door_control\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="132372869444211798"
+    Private="false" />
+</Objects>
