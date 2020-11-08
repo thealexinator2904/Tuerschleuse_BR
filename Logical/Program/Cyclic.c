@@ -57,12 +57,12 @@ char handleDoor(char state, struct motorDATA *motor, char s_open, char isOTHERdo
 	doorOpenTimer.PT = 5000;
 	blinkTimer.PT = 200;
 
-	
 	switch(state)
 	{
 		case INIT:
 			motor->anzeige = 0;
-			
+			motor->M_rechts = 0;
+			motor->M_links = 0;			
 			if(!motor->stop_links)
 				state = CLOSES;
 			if(motor->stop_links)
@@ -93,7 +93,7 @@ char handleDoor(char state, struct motorDATA *motor, char s_open, char isOTHERdo
 			motor->anzeige = 0;
 			doorOpenTimer.IN = 1;
 
-			if(doorOpenTimer.Q)
+			if(doorOpenTimer.Q) //War die Tür Zeit 5 Sekunden offen? 
 			{
 				doorOpenTimer.IN = 0;
 				state = CLOSES;
@@ -108,8 +108,7 @@ char handleDoor(char state, struct motorDATA *motor, char s_open, char isOTHERdo
 			if(blinkTimer.Q)
 			{
 				blinkTimer.IN = 0;
-				//Toggle anzeigeLED
-				motor->anzeige ^= 1;
+				motor->anzeige ^= 1;//Toggle anzeigeLED
 			}
 			
 			if(motor->stop_links)
@@ -130,8 +129,10 @@ char handleDoor(char state, struct motorDATA *motor, char s_open, char isOTHERdo
 				state = CLOSES;
 			break;
 	}
-	//errrorHandling
-	errorTimer->IN = ((motor->M_links) || (motor->M_rechts));
+	//error Handling: wenn die Motoren gesamt länger als 8s laufen
+	//(das reicht im Normalfall, dazu dass die Tür ein Mal auf und zu geht)
+	//muss irgendein Fehler vorliegen, deswegen wird der Motor abgeschalten
+	errorTimer->IN = ((motor->M_links) || (motor->M_rechts)) || (motor->lichtschranke);
 	
 	if(errorTimer->Q)
 		state = ERROR;
